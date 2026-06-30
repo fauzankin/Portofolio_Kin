@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/About'
 import Skills from './components/Skills'
 import Project from './components/Project'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import AboutPreview from "./components/AboutPreview";
 
 function App() {
   
@@ -12,15 +13,15 @@ function App() {
     <div className="scroll-smooth">
       <Navbar/>
 
-      <main>
-
+      <main className="pt-[81px]">
       <Hero/>
-      <About/>
+      <AboutPreview />
       <Skills/>
       <Project/>
       <Contact/>
-
       </main>
+
+      <Footer/>
     </div>
   )
 }
