@@ -47,7 +47,7 @@ const projects = [
     cover: acc1,
     images: [acc1, acc2, acc3, acc4, acc5, acc6, acc7],
     github: "https://github.com/fauzankin/AccountingSystem_Kin",
-    live: null,
+    live: "https://accounting-system-kin.vercel.app",
   },
 ];
 
